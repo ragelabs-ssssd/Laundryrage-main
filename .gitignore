@@ -1,0 +1,30 @@
+# Large Files & Folders
+videos/
+*.mp4
+*.mov
+*.avi
+
+# Dependency Folders
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build & Output
+dist/
+frontend/dist/
+build/
+.cache/
+
+# Environment Variables (Security)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Local Database/Data
+backend/data/db.json
+
+# System Files
+.DS_Store
+Thumbs.db
