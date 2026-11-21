@@ -53,7 +53,7 @@ export const HYGIENE_CHAPTERS = [
     tag: '03 / Precision Finish',
     title: 'Commercial Steam-Press & Crisp Folding.',
     desc: 'Garments are finished with temperature-controlled steam presses and packed breathable—ready to hang in your wardrobe the moment they arrive.',
-    img: '/images/indian-hero-4-drum.jpg',
+    img: '/images/indian-hero-3.jpg',
     specs: ['Zero scorch or shine marks', 'Hanger or flat-fold option', 'Moisture-sealed packaging'],
   },
 ];
