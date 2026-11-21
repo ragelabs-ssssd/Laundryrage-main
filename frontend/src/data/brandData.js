@@ -88,7 +88,7 @@ export const SERVICES = [
     price: '',
     turnaround: '<48h',
     badge: 'Most Popular',
-    img: '/images/wash-fold.jpg',
+    img: '/images/indian-hero-5-counter.jpg',
     desc: 'Everyday clothes washed separately in sanitized drums and neatly folded.',
     features: ['100% separate solo-drum wash', 'Bio-enzyme detergent & softener', 'Crisp wardrobe-ready fold'],
   },
