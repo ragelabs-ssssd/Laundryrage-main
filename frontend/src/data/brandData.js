@@ -109,7 +109,7 @@ export const SERVICES = [
     turnaround: '<24h',
     badge: 'VIP Express',
     premium: true,
-    img: '/images/priority-care.jpg',
+    img: '/images/indian-hero-3.jpg',
     desc: 'Our premium fast-tracked solo wash, dry, and crisp finish—guaranteed doorstep delivery within 24 hours.',
     features: ['First-in-line VIP solo drum', 'Delivered within 24 hours', 'Live rider tracking in app'],
   },
