@@ -30,7 +30,7 @@ const WhatsAppWidget = () => {
           >
             <div className="flex items-center justify-between">
               <span className="text-[11px] font-extrabold uppercase tracking-wider text-amber-700">
-                LaundryRage Concierge • 7AM–10PM
+                LaundryRage Concierge • 8AM–9PM
               </span>
               <button
                 type="button"
@@ -88,7 +88,7 @@ const WhatsAppWidget = () => {
         aria-label="Open LaundryRage Support"
       >
         <span className="w-2 h-2 rounded-full bg-emerald-400" />
-        <span>7AM–10PM • Support</span>
+        <span>8AM–9PM • Support</span>
       </motion.button>
     </div>
   );

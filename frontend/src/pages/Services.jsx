@@ -49,7 +49,7 @@ const Services = () => {
       name: 'Dry Cleaning (Coming Soon)',
       desc: 'Gentle solvent-based cleaning for delicate fabrics. Expert care for ethnic wear, silks, and wools.',
       cat: 'Dry Clean',
-      img: '/images/dry-cleaning.jpg',
+      img: '/images/drycleaning-blazer-v1.jpg',
       icon: <Wind className="w-4 h-4" />,
       color: 'from-purple-500 to-indigo-400',
       tagColor: 'bg-purple-50 text-purple-700 border-purple-200',
@@ -60,7 +60,7 @@ const Services = () => {
       name: 'Steam Ironing',
       desc: 'Professional steam press for crisp, wrinkle-free finish every time. Gentle on all fabric types.',
       cat: 'Iron',
-      img: '/images/steam-ironing.jpg',
+      img: '/images/ironing-1.jpg',
       icon: <Zap className="w-4 h-4" />,
       color: 'from-orange-500 to-amber-400',
       tagColor: 'bg-orange-50 text-orange-700 border-orange-200'

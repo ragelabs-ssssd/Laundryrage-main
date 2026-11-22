@@ -17,6 +17,8 @@ import StepsPreview from './pages/StepsPreview';
 import SocialPreview from './pages/SocialPreview';
 import QRPreview from './pages/QRPreview';
 import PhotoPreview from './pages/PhotoPreview';
+import IroningPreview from './pages/IroningPreview';
+import DryCleaningPreview from './pages/DryCleaningPreview';
 
 function App() {
   return (
@@ -60,6 +62,8 @@ function App() {
         <Route path="/social-preview" element={<SocialPreview />} />
         <Route path="/qr-preview" element={<QRPreview />} />
         <Route path="/photo-preview" element={<PhotoPreview />} />
+        <Route path="/ironing-preview" element={<IroningPreview />} />
+        <Route path="/drycleaning-preview" element={<DryCleaningPreview />} />
 
         {/* New Awwwards-tier overhaul preview route */}
         <Route

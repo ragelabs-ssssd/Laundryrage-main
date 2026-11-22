@@ -44,8 +44,8 @@ const SERVICE_TABS = [
     title: 'Precision Steam Ironing',
     price: '₹15 / pc',
     turnaround: '<24h Turnaround',
-    img: '/images/steam-ironing.jpg',
-    fallbackImg: '/images/steam-ironing.jpg',
+    img: '/images/ironing-1.jpg',
+    fallbackImg: '/images/ironing-1.jpg',
     desc: 'Commercial temperature-regulated steam pressing for office shirts, trousers, kurtas, and uniforms—zero scorch marks or collar shine.',
     specs: [
       'Calibrated steam jets for crisp collars & cuffs',
@@ -77,8 +77,8 @@ const SERVICE_TABS = [
     title: 'Signature Dry Cleaning',
     price: 'Launching Soon',
     turnaround: '48h Care',
-    img: '/images/dry-cleaning.jpg',
-    fallbackImg: '/images/dry-cleaning.jpg',
+    img: '/images/drycleaning-blazer-v1.jpg',
+    fallbackImg: '/images/drycleaning-blazer-v1.jpg',
     desc: 'Gentle hydrocarbon & solvent care engineered for silk sarees, tailored blazers, lehengas, and winter woolens.',
     specs: [
       'Targeted pre-spotting for oil, coffee & festive stains',
