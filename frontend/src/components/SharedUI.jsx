@@ -105,7 +105,10 @@ export const QRModal = ({ isOpen, onClose }) => {
                   TAP. WASH. RELAX.
                 </h3>
                 <p className="text-xs font-bold mt-2">
-                  100% Solo-Drum • &lt;48h Standard • &lt;24h Priority
+                  100% Solo-Drum • 48h* Fresh • 24h* Priority
+                </p>
+                <p className="text-[11px] font-semibold mt-1 opacity-80">
+                  * Excluding non-working hours
                 </p>
               </div>
               <StoreButtons variant="dark" size="sm" />

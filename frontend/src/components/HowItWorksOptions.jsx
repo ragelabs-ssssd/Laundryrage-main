@@ -7,7 +7,7 @@ const STEP_META = [
   { time: '15 sec', icon: Smartphone },
   { time: '2 min', icon: Tag },
   { time: 'Solo Cycle', icon: Droplets },
-  { time: '<24 hrs', icon: PackageCheck },
+  { time: '48h* / 24h* VIP', icon: PackageCheck },
 ];
 
 export default function HowItWorksShowcase() {

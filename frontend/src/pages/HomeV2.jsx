@@ -17,7 +17,7 @@ import { StoreButtons, QRModal, FAQAccordion } from '../components/SharedUI';
 const HERO_METRICS = [
   { value: '3,000+', label: 'Households Served' },
   { value: '4.7★', label: 'App Store & Play Rating' },
-  { value: '<24 Hrs', label: 'Express Turnaround' },
+  { value: '48 Hrs*', label: 'Fresh Return (24h* Priority)' },
   { value: '100%', label: 'Individual Sanitized Wash' },
 ];
 
@@ -27,7 +27,7 @@ const SERVICE_TABS = [
     tabLabel: 'Wash & Fold',
     title: 'Everyday Wash & Fold',
     price: '₹69 / kg',
-    turnaround: '<24h Turnaround',
+    turnaround: '48h* Turnaround',
     img: '/wash-fold.jpg',
     fallbackImg: '/images/wash-fold.jpg',
     desc: 'Daily wear sorted by color and fabric, washed 100% separately in ozone-sanitized drums, and returned crisply folded for your wardrobe.',
@@ -43,7 +43,7 @@ const SERVICE_TABS = [
     tabLabel: 'Steam Ironing',
     title: 'Precision Steam Ironing',
     price: '₹15 / pc',
-    turnaround: '<24h Turnaround',
+    turnaround: '48h* Turnaround',
     img: '/images/ironing-1.jpg',
     fallbackImg: '/images/ironing-1.jpg',
     desc: 'Commercial temperature-regulated steam pressing for office shirts, trousers, kurtas, and uniforms—zero scorch marks or collar shine.',
@@ -51,15 +51,15 @@ const SERVICE_TABS = [
       'Calibrated steam jets for crisp collars & cuffs',
       'Zero direct-plate shine on dark formals & linens',
       'Choose hanger-ready or flat-packed crease-free return',
-      'Delivered in under 24 hours across Bhubaneswar',
+      'Delivered in 48 hours* across Bhubaneswar',
     ],
   },
   {
     id: 'priority-care',
-    tabLabel: 'Priority Care (<24h)',
-    title: 'Priority Care (<24h)',
+    tabLabel: 'Priority Care (24h*)',
+    title: 'Priority Care (24h*)',
     price: 'Express',
-    turnaround: 'Fast-Track <24h',
+    turnaround: 'Fast-Track 24h*',
     img: '/images/priority-care.jpg',
     fallbackImg: '/images/priority-care.jpg',
     desc: 'Need crisp outfits for tomorrow morning? Your bag jumps straight to the front of the wash, dry, and steam-press queue.',
@@ -67,7 +67,7 @@ const SERVICE_TABS = [
       'First-in-line wash & steam-press dispatch',
       'Dedicated pickup slot in Jagamara, Patia & Saheed Nagar',
       'Live order stage tracking from pickup to doorstep',
-      'Guaranteed next-morning or same-evening return',
+      'Delivered within 24 hours* (fast-track)',
     ],
   },
   {
@@ -76,7 +76,7 @@ const SERVICE_TABS = [
     soon: true,
     title: 'Signature Dry Cleaning',
     price: 'Launching Soon',
-    turnaround: '48h Care',
+    turnaround: '48h* Care',
     img: '/images/drycleaning-blazer-v1.jpg',
     fallbackImg: '/images/drycleaning-blazer-v1.jpg',
     desc: 'Gentle hydrocarbon & solvent care engineered for silk sarees, tailored blazers, lehengas, and winter woolens.',
@@ -108,7 +108,7 @@ const PROCESS_STEPS = [
   {
     step: '04',
     title: 'Crisp Wardrobe Return',
-    desc: 'Steam-pressed or neatly folded and delivered back to your door in under 24 hours.',
+    desc: 'Steam-pressed or neatly folded and delivered back to your door in 48 hours* (24 hours* with Priority).',
   },
 ];
 
@@ -183,7 +183,7 @@ const Home = () => {
               </h1>
 
               <p className="text-[1rem] md:text-[1.125rem] font-medium leading-[1.6] max-w-[58ch] text-slate-600">
-                Doorstep pickup across Jagamara, Patia, Khandagiri &amp; Saheed Nagar. Washed 100% separately in sanitized drums, steam-pressed, and returned crisp in under 24 hours.
+                Doorstep pickup across Jagamara, Patia, Khandagiri &amp; Saheed Nagar. Washed 100% separately in sanitized drums, steam-pressed, and returned fresh in 48 hours* (24 hours* with Priority).
               </p>
 
               {/* Offer Callout Pill with 1-Click Copy */}
@@ -273,7 +273,7 @@ const Home = () => {
                         Live Turnaround
                       </p>
                       <p className="text-sm font-bold text-slate-900 leading-tight">
-                        Order by 2 PM → Delivered Tomorrow 10 AM
+                        48h* Fresh Delivery &bull; 24h* Priority
                       </p>
                     </div>
                   </div>

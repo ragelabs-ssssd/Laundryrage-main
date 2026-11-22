@@ -28,6 +28,9 @@ export default function StatsStripShowcase() {
             ))}
           </div>
         </div>
+        <p className="mt-5 text-center text-[11px] font-semibold text-gray-500">
+          * Excluding non-working hours
+        </p>
       </div>
     </section>
   );

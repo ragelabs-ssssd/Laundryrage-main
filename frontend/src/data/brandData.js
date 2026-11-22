@@ -2,7 +2,7 @@ export const BRAND = {
   name: 'LaundryRage',
   tagline: 'Your Weekend Isn’t Made for Laundry.',
   heroSub:
-    'Book a doorstep pickup in 15 seconds across Bhubaneswar. We wash every order 100% separately in sanitized drums, steam-press to perfection, and deliver fresh in under 24 hours.',
+    'Book a doorstep pickup in 15 seconds across Bhubaneswar. We wash every order 100% separately in sanitized drums, steam-press to perfection, and deliver fresh in 48 hours* (24 hours* with Priority).',
   address: 'Bhubaneswar, Odisha',
   areas: [
     { name: 'Jagamara', hub: 'Main Hub', window: '25 mins pickup', note: 'Express <24h active' },
@@ -27,7 +27,7 @@ export const BRAND = {
 export const STATS = [
   { value: '5,000+', label: 'Bhubaneswar Customers' },
   { value: '4.7★', label: 'App Store & Play Rating' },
-  { value: '<24 Hrs', label: 'Express Doorstep Return' },
+  { value: '48 Hrs*', label: 'Fresh Return (24h* Priority)' },
   { value: '100%', label: 'Solo-Drum Hygiene' },
 ];
 
@@ -77,7 +77,7 @@ export const STEPS = [
   {
     step: '04',
     title: 'Crisp Wardrobe Delivery',
-    desc: 'Returned neatly folded or steam-pressed to your doorstep in under 24 hours.',
+    desc: 'Returned neatly folded or steam-pressed to your doorstep within 48 hours* (24 hours* with Priority Wash).',
   },
 ];
 
@@ -86,7 +86,7 @@ export const SERVICES = [
     id: 'wash-fold',
     name: 'Wash & Fold',
     price: '',
-    turnaround: '<48h',
+    turnaround: '48h*',
     badge: 'Most Popular',
     img: '/images/indian-hero-5-counter.jpg',
     desc: 'Everyday clothes washed separately in sanitized drums and neatly folded.',
@@ -96,7 +96,7 @@ export const SERVICES = [
     id: 'steam-ironing',
     name: 'Steam Ironing',
     price: '',
-    turnaround: '<48h',
+    turnaround: '48h*',
     badge: 'Wrinkle-Free',
     img: '/images/ironing-1.jpg',
     desc: 'Precision steam pressing for shirts, trousers, kurtas, and office formals.',
@@ -106,18 +106,18 @@ export const SERVICES = [
     id: 'priority-care',
     name: 'Priority Wash',
     price: 'Premium',
-    turnaround: '<24h',
+    turnaround: '24h*',
     badge: 'VIP Express',
     premium: true,
     img: '/images/indian-hero-3.jpg',
-    desc: 'Our premium fast-tracked solo wash, dry, and crisp finish—guaranteed doorstep delivery within 24 hours.',
-    features: ['First-in-line VIP solo drum', 'Delivered within 24 hours', 'Live rider tracking in app'],
+    desc: 'Our premium fast-tracked solo wash, dry, and crisp finish—delivered to your doorstep within 24 hours*.',
+    features: ['First-in-line VIP solo drum', 'Delivered within 24 hours*', 'Live rider tracking in app'],
   },
   {
     id: 'dry-cleaning',
     name: 'Dry Cleaning',
     price: 'Coming Soon',
-    turnaround: '48h',
+    turnaround: '48h*',
     badge: 'Soon',
     soon: true,
     img: '/images/drycleaning-blazer-v1.jpg',
@@ -163,7 +163,7 @@ export const FAQS = [
   },
   {
     q: 'How fast is the pickup and delivery turnaround in Bhubaneswar?',
-    a: 'Standard Wash & Fold and Steam Ironing are delivered within 48 hours. Priority Wash orders are fast-tracked for guaranteed delivery within 24 hours.',
+    a: 'Fresh services (Wash & Fold and Steam Ironing) are delivered within 48 hours*. Priority Wash orders are fast-tracked for delivery within 24 hours* (*excluding non-working hours).',
   },
   {
     q: 'How do I pay? Do you support UPI and wallet credits?',

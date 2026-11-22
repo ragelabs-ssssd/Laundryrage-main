@@ -6,7 +6,7 @@ const CARE_SYMBOLS = [
   { icon: Droplets, label: 'Wash' },
   { icon: Wind, label: 'Steam' },
   { icon: Layers, label: 'Fold' },
-  { icon: Clock, label: '<24h Express' },
+  { icon: Clock, label: '48h* Fresh • 24h* Priority' },
 ];
 
 const Footer = () => {
@@ -72,7 +72,7 @@ const Footer = () => {
             </p>
 
             <p className="text-[0.9375rem] leading-[1.65] text-slate-300 max-w-sm">
-              Bhubaneswar&apos;s hygiene-first doorstep laundry &amp; steam-press app. Individual sanitized drums, transparent pricing, and &lt;24h return.
+              Bhubaneswar&apos;s hygiene-first doorstep laundry &amp; steam-press app. Individual sanitized drums, transparent pricing, 48h* fresh delivery &amp; 24h* priority return.
             </p>
 
             <div className="flex items-center gap-3 pt-1">
@@ -216,7 +216,7 @@ const Footer = () => {
         {/* Bottom Legal Bar */}
         <div className="mt-14 pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-medium leading-[1.4] text-slate-400">
           <p>© {new Date().getFullYear()} LaundryRage. All rights reserved.</p>
-          <p>Serving Jagamara, Khandagiri, Patia, Saheed Nagar &amp; Nayapalli</p>
+          <p>* Excluding non-working hours. Serving Jagamara, Khandagiri, Patia, Saheed Nagar &amp; Nayapalli</p>
         </div>
       </div>
     </footer>

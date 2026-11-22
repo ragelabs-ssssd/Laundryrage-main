@@ -76,8 +76,9 @@ const Footer = () => {
           </button>
         </div>
 
-        <div className="pt-4 border-t border-slate-950/15 flex items-center justify-between text-xs font-bold text-slate-900">
-          <p>© 2025 LaundryRage. All rights reserved.</p>
+        <div className="pt-4 border-t border-slate-950/15 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs font-bold text-slate-900">
+          <p>© {new Date().getFullYear()} LaundryRage. All rights reserved.</p>
+          <p>* Excluding non-working hours.</p>
         </div>
       </div>
     </footer>

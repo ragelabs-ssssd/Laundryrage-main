@@ -105,13 +105,18 @@ export default function HeroShowcase({ onOpenQR }) {
               <StoreButtons variant="dark" size="md" />
             </div>
 
-            <div className="flex flex-wrap items-center gap-6 pt-2 text-xs font-bold text-gray-900">
-              <span className="inline-flex items-center gap-1.5">
-                <ShieldCheck className="w-4 h-4 text-slate-950" /> 100% Separate Drums
-              </span>
-              <span className="inline-flex items-center gap-1.5">
-                <Clock className="w-4 h-4 text-slate-950" /> &lt;24h Doorstep Return
-              </span>
+            <div className="space-y-1.5 pt-2">
+              <div className="flex flex-wrap items-center gap-6 text-xs font-bold text-gray-900">
+                <span className="inline-flex items-center gap-1.5">
+                  <ShieldCheck className="w-4 h-4 text-slate-950" /> 100% Separate Drums
+                </span>
+                <span className="inline-flex items-center gap-1.5">
+                  <Clock className="w-4 h-4 text-slate-950" /> 48h* Fresh &bull; 24h* Priority
+                </span>
+              </div>
+              <p className="text-[11px] font-semibold text-gray-900/80">
+                * Excluding non-working hours
+              </p>
             </div>
           </div>
 

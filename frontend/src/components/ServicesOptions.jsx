@@ -11,7 +11,7 @@ export default function ServicesShowcase({ onOpenQR }) {
             Our Services
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-[42px] font-extrabold font-display leading-[1.15] tracking-tight text-gray-950">
-            Transparent per-kg, per-piece &amp; premium 24h care.
+            48h* fresh delivery &amp; 24h* priority care.
           </h2>
         </div>
 
@@ -98,6 +98,10 @@ export default function ServicesShowcase({ onOpenQR }) {
             );
           })}
         </div>
+
+        <p className="mt-6 text-xs font-semibold text-gray-600">
+          * Delivery timelines exclude non-working hours.
+        </p>
       </div>
     </section>
   );
